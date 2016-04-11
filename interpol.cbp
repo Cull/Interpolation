@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="interpol" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/interpol" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/interpol" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Approx_func.cpp" />
+		<Unit filename="Approx_func.h" />
+		<Unit filename="Approx_func_fabr.cpp" />
+		<Unit filename="Approx_func_fabr.h" />
+		<Unit filename="Controller.cpp" />
+		<Unit filename="Controller.h" />
+		<Unit filename="Linear_interpol.cpp" />
+		<Unit filename="Linear_interpol.h" />
+		<Unit filename="Parser.cpp" />
+		<Unit filename="Parser.h" />
+		<Unit filename="Quadratic_interpol.cpp" />
+		<Unit filename="Quadratic_interpol.h" />
+		<Unit filename="Simple_interpol.cpp" />
+		<Unit filename="Simple_interpol.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

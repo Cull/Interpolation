@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1459764104 source:d:\proj\interpol\main.cpp
+	"Controller.h"
+
+1459760148 source:d:\proj\interpol\approx_func.cpp
+	"Approx_func.h"
+
+1459760093 d:\proj\interpol\approx_func.h
+	<vector>
+
+1459760399 source:d:\proj\interpol\simple_interpol.cpp
+	"Simple_interpol.h"
+
+1459761544 d:\proj\interpol\simple_interpol.h
+	"Approx_func.h"
+	<vector>
+
+1459761054 source:d:\proj\interpol\linear_interpol.cpp
+	"Linear_interpol.h"
+
+1459761497 d:\proj\interpol\linear_interpol.h
+	"Approx_func.h"
+	<vector>
+
+1459762449 d:\proj\interpol\approx_func_fabr.h
+	<vector>
+	<memory>
+	<iostream>
+	"Approx_func.h"
+	"Simple_interpol.h"
+	"Linear_interpol.h"
+	"Quadratic_interpol.h"
+
+1459761519 d:\proj\interpol\quadratic_interpol.h
+	"Approx_func.h"
+	<vector>
+
+1459761376 source:d:\proj\interpol\quadratic_interpol.cpp
+	"Quadratic_interpol.h"
+
+1459762454 source:d:\proj\interpol\approx_func_fabr.cpp
+	"Approx_func_fabr.h"
+
+1459762901 source:d:\proj\interpol\parser.cpp
+	"Parser.h"
+
+1459764009 d:\proj\interpol\parser.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+
+1459764049 source:d:\proj\interpol\controller.cpp
+	"Controller.h"
+
+1459763874 d:\proj\interpol\controller.h
+	<iostream>
+	<memory>
+	<vector>
+	"Approx_func.h"
+	"Approx_func_fabr.h"
+	"Parser.h"
+
